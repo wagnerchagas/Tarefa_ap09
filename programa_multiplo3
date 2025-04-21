@@ -1,0 +1,9 @@
+#programa multiplo de 3
+from random import randint
+
+num = randint(1, 100)
+print(f"Número gerado: {num}")
+if num % 3 == 0:
+    print("É múltiplo de 3")
+else:
+    print("Não é múltiplo de 3")

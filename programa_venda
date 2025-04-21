@@ -1,0 +1,11 @@
+#programa venda
+from random import uniform
+
+valor_compra = round(uniform(5, 100), 2)
+if valor_compra < 20:
+    valor_venda = valor_compra * 1.45
+else:
+    valor_venda = valor_compra * 1.30
+
+print(f"Valor de compra: R${valor_compra:.2f}")
+print(f"Valor de venda: R${valor_venda:.2f}")
